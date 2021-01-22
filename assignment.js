@@ -16,7 +16,7 @@ function kilometerToMeter(kilometerValue){
 function budgetCalculator(watch, mobile, laptop){
     //check if input is a negative number
     if(Math.sign(watch) == -1 || Math.sign(mobile) == -1 || Math.sign(laptop) == -1){
-        console.log("Please input positive number.");
+        console.log("Input positive number.");
         return;
     }
     //single fixed prices
